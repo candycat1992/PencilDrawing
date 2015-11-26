@@ -41,7 +41,7 @@ I added some more parameters for better control of the final image.
 
 The paper presented three group of weights for tone map generation.
 
-1. $$\omega_1 : \omega_2 : \omega_3 = 42 : 29 : 29$$
+1. ![equation](http://www.sciweavers.org/tex2img.php?eq=%5Comega_1%20%3A%20%5Comega_2%20%3A%20%5Comega_3%20%3D%2042%20%3A%2029%20%3A%2029&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
 2. $$\omega_1 : \omega_2 : \omega_3 = 52 : 37 : 11$$
 
