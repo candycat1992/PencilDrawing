@@ -1,6 +1,6 @@
 
-im = imread('inputs/17--6.jpg');
+im = imread('inputs/15--298.jpg');
 
-I = PencilDrawing(im, 7, 1, 8, 1.0, 0.4);
+I = PencilDrawing(im, 8, 1, 8, 1.0, 1.0);
 
 figure, imshow(I)

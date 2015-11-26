@@ -48,9 +48,13 @@ function J = GenToneMap(im)
     end
     histgramTarget(:, 1) = histgramTarget(:, 1)/total;
 
-    %% Smoothing
-    im = medfilt2(im, [5 5]);
+%     %% Smoothing
+%     im = medfilt2(im, [5 5]);
     
     %% Histgram matching
     J = histeq(im, histgramTarget);
+    
+    %% Smoothing
+    G = fspecial('average', 10);
+    J = imfilter(J, G,'same');
 end

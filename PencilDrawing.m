@@ -27,19 +27,19 @@ function I = PencilDrawing(im, ks, width, dirNum, gammaS, gammaI)
 
     %% Generate the stroke map
     S = GenStroke(lumIm, ks, width, dirNum) .^ gammaS; % darken the result by gamma
-    % figure, imshow(S)
+%     figure, imshow(S)
 
     %% Generate the tone map
     J = GenToneMap(lumIm) .^ gammaI; % darken the result by gamma
-    % figure, imshow(J)
+%     figure, imshow(J)
 
     %% Read the pencil texture
-    P = im2double(imread('pencils/pencil2.png'));
+    P = im2double(imread('pencils/pencil0.jpg'));
     P = rgb2gray(P);
 
     %% Generate the pencil map
     T = GenPencil(lumIm, P, J);
-    % figure, imshow(T)
+%     figure, imshow(T)
 
     %% Compute the result
     lumIm = S .* T;

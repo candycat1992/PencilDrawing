@@ -57,7 +57,7 @@ These weights will determine the histogram of the tone map. I use the third grou
 
 * **pencils**
 	
-	Include 5 pencil textures for demonstration. I use “pencils/pencil2.png” by default. You can change it in PencilDrawing.m.
+	Include 5 pencil textures for demonstration. I use “pencils/pencil0.jpg” by default. You can change it in PencilDrawing.m.
 
 * **results**
 
