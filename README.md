@@ -53,7 +53,7 @@ These weights will determine the histogram of the tone map. I use the third grou
 
 * **inputs**
 
-	Include some test images from the website of the publishers (http://www.cse.cuhk.edu.hk/leojia/projects/pencilsketch/pencil_drawing.htm) and other images.
+	Include some test images from <a href="http://www.cse.cuhk.edu.hk/leojia/projects/pencilsketch/pencil_drawing.htm" target="_blank">the website </a> of the publishers and other images.
 
 * **pencils**
 	
@@ -65,7 +65,7 @@ These weights will determine the histogram of the tone map. I use the third grou
 
 * **resultsFromPaper**
 
-	Include the results of the paper for comparison. I grabbed them in their website (http://www.cse.cuhk.edu.hk/leojia/projects/pencilsketch/pencil_drawing.htm).
+	Include the results of the paper for comparison. I grabbed them in <a href="http://www.cse.cuhk.edu.hk/leojia/projects/pencilsketch/pencil_drawing.htm" target="_blank">their website</a>.
 
 # Reference
 
