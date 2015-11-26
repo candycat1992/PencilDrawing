@@ -1,5 +1,5 @@
 
-# Pencil Drawing
+# Introduction
 
 Implement the algorithm presented in [1]. You can use the code like below to get a pencil drawing production:
 
@@ -17,21 +17,21 @@ I add some more parameters for better control of the final image.
 
 	Control the width of the strokes. See Figure 1 for example.
 
-	<center>![alt text]()
+	<center>![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/width0.png) ![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/width1.png)
 Figure 1: Width of the strokes. left: width = 0; right: width = 2.</center>
 
 * gammaS
 
 	Control the darkness of the strokes. See Figure 2 for example.
 
-	<center>![alt text]()
+	<center>![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/stroke_dark0.png) ![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/stroke_dark1.png)
 Figure 2: Gamma of the strokes. left: gammaS = 1.0; right: gammaS = 2.0.</center>
 
 * gammaI
 
 	Control the darkness of the final image. See Figure 3 for example.
 
-	<center>![alt text]()
+	<center>![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/image_dark0.png) ![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/image_dark1.png)
 Figure 3: Gamma of the final image. left: gammaI = 1.0; right: width = 0.4.</center>
 
 # Folder Organization
