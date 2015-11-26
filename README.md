@@ -15,7 +15,24 @@ I add some more parameters for better control of the final image.
 
 * width
 
-	Control the width of the strokes.
+	Control the width of the strokes. See Figure 1 for example.
+
+	<center>![alt text]()
+Figure 1: Width of the strokes. left: width = 0; right: width = 2.</center>
+
+* gammaS
+
+	Control the darkness of the strokes. See Figure 2 for example.
+
+	<center>![alt text]()
+Figure 2: Gamma of the strokes. left: gammaS = 1.0; right: gammaS = 2.0.</center>
+
+* gammaI
+
+	Control the darkness of the final image. See Figure 3 for example.
+
+	<center>![alt text]()
+Figure 3: Gamma of the final image. left: gammaI = 1.0; right: width = 0.4.</center>
 
 # Folder Organization
 
