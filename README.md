@@ -7,11 +7,11 @@ Implement the algorithm presented in [1]. You can use the code like below to get
 I = PencilDrawing(im, ks, width, dirNum, gammaS, gammaI);
 ```
 
-See the demo.m for example.
+See demo.m for example.
 
 # Parameters
 
-I add some more parameters for better control of the final image.
+I added some more parameters for better control of the final image.
 
 * width
 
@@ -19,7 +19,7 @@ I add some more parameters for better control of the final image.
 
 	<center>![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/width0.png) ![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/width1.png)
 
-Figure 1: Width of the strokes. left: width = 0; right: width = 2.</center>
+	**Figure 1**: Width of the strokes. left: width = 0; right: width = 2.</center>
 
 * gammaS
 
@@ -27,7 +27,7 @@ Figure 1: Width of the strokes. left: width = 0; right: width = 2.</center>
 
 	<center>![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/stroke_dark0.png) ![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/stroke_dark1.png)
 
-Figure 2: Gamma of the strokes. left: gammaS = 1.0; right: gammaS = 2.0.</center>
+	**Figure 2**: Gamma of the strokes. left: gammaS = 1.0; right: gammaS = 2.0.</center>
 
 * gammaI
 
@@ -35,7 +35,19 @@ Figure 2: Gamma of the strokes. left: gammaS = 1.0; right: gammaS = 2.0.</center
 
 	<center>![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/image_dark0.png) ![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/image_dark1.png)
 
-Figure 3: Gamma of the final image. left: gammaI = 1.0; right: gammaI = 0.4.</center>
+	Figure 3: Gamma of the final image. left: gammaI = 1.0; right: gammaI = 0.4.</center>
+
+## Tone Transfer Weights
+
+The paper presented three group of weights for tone map generation.
+
+1. $\omega_1 : \omega_2 : \omega_3 = 42 : 29 : 29$
+
+2. $\omega_1 : \omega_2 : \omega_3 = 52 : 37 : 11$
+
+3. $\omega_1 : \omega_2 : \omega_3 = 76 : 22 : 2$
+
+These weights determine the histogram of the tone map. I use the third group by default, which makes the final image lighter. You can change to other groups in GenToneMap.m.
 
 # Folder Organization
 
@@ -45,7 +57,7 @@ Figure 3: Gamma of the final image. left: gammaI = 1.0; right: gammaI = 0.4.</ce
 
 * pencils
 	
-	Include 5 pencil textures for demonstration. I use “pencils/pencil2.png” by default. You can change it in the PencilDrawing.m.
+	Include 5 pencil textures for demonstration. I use “pencils/pencil2.png” by default. You can change it in PencilDrawing.m.
 
 * results
 
