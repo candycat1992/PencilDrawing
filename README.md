@@ -43,9 +43,9 @@ The paper presented three group of weights for tone map generation.
 
 1. ![equation](http://www.sciweavers.org/tex2img.php?eq=%5Comega_1%20%3A%20%5Comega_2%20%3A%20%5Comega_3%20%3D%2042%20%3A%2029%20%3A%2029&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
-2. $$\omega_1 : \omega_2 : \omega_3 = 52 : 37 : 11$$
+2. ![equation](http://www.sciweavers.org/tex2img.php?eq=%5Comega_1%20%3A%20%5Comega_2%20%3A%20%5Comega_3%20%3D%2052%20%3A%2037%20%3A%2011&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
-3. $$\omega_1 : \omega_2 : \omega_3 = 76 : 22 : 2$$
+3. ![equation](http://www.sciweavers.org/tex2img.php?eq=%5Comega_1%20%3A%20%5Comega_2%20%3A%20%5Comega_3%20%3D%2076%20%3A%2022%20%3A%202&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
 These weights determine the histogram of the tone map. I use the third group by default, which makes the final image lighter. You can change to other groups in GenToneMap.m.
 
