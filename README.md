@@ -17,29 +17,29 @@ I added some more parameters for better control of the final image.
 
 	Control the width of the strokes. See Figure 1 for example.
 
-	<center>![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/width0.png) ![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/width1.png)
+	<center>![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/width0.png) ![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/width1.png)</center>
 
-	**Figure 1**: Width of the strokes. left: width = 0; right: width = 2.</center>
+	<center>**Figure 1**: Width of the strokes. left: width = 0; right: width = 2.</center>
 
 * **gammaS**
 
 	Control the darkness of the strokes. See Figure 2 for example.
 
-	<center>![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/stroke_dark0.png) ![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/stroke_dark1.png)
+	<center>![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/stroke_dark0.png) ![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/stroke_dark1.png)</center>
 
-	**Figure 2**: Gamma of the strokes. left: gammaS = 1.0; right: gammaS = 2.0.</center>
+	<center>**Figure 2**: Gamma of the strokes. left: gammaS = 1.0; right: gammaS = 2.0.</center>
 
 * **gammaI**
 
 	Control the darkness of the final image. See Figure 3 for example.
 
-	<center>![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/image_dark0.png) ![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/image_dark1.png)
+	<center>![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/image_dark0.png) ![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/image_dark1.png)</center>
 
-	Figure 3: Gamma of the final image. left: gammaI = 1.0; right: gammaI = 0.4.</center>
+	<center>**Figure 3**: Gamma of the final image. left: gammaI = 1.0; right: gammaI = 0.4.</center>
 
 ## Tone Transfer Weights
 
-The paper presented three group of weights for tone map generation.
+The paper presented three groups of weights for tone map generation.
 
 1. ![alt text](https://github.com/candycat1992/candycat1992.github.io/blob/master/project_images/Tex2Img_1448535264.jpg)
 
@@ -47,7 +47,7 @@ The paper presented three group of weights for tone map generation.
 
 3. ![alt text](https://github.com/candycat1992/candycat1992.github.io/blob/master/project_images/Tex2Img_1448535007.jpg)
 
-These weights determine the histogram of the tone map. I use the third group by default, which makes the final image lighter. You can change to other groups in GenToneMap.m.
+These weights will determine the histogram of the tone map. I use the third group by default, which makes the final image lighter. You can change to other groups in GenToneMap.m.
 
 # Folder Organization
 
