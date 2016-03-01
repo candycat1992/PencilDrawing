@@ -41,11 +41,11 @@ I added some more parameters for better control of the final image.
 
 The paper presented three groups of weights for tone map generation.
 
-1. ![alt text](https://github.com/candycat1992/PencilDrawing/tree/master/project_images/Tex2Img_1448535264.jpg)
+1. ![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/project_images/Tex2Img_1448535264.jpg)
 
-2. ![alt text](https://github.com/candycat1992/PencilDrawing/tree/master/project_images/Tex2Img_1448535306.jpg)
+2. ![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/project_images/Tex2Img_1448535306.jpg)
 
-3. ![alt text](https://github.com/candycat1992/PencilDrawing/tree/master/project_images/Tex2Img_1448535007.jpg)
+3. ![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/project_images/Tex2Img_1448535007.jpg)
 
 These weights will determine the histogram of the tone map. I use the third group by default, which makes the final image lighter. You can change to other groups in GenToneMap.m.
 
