@@ -17,25 +17,25 @@ I added some more parameters for better control of the final image.
 
 	Control the width of the strokes. See Figure 1 for example.
 
-	<center>![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/width0.png) ![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/width1.png)</center>
+	![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/width0.png) ![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/width1.png)
 
-	<center>**Figure 1**: Width of the strokes. left: width = 0; right: width = 2.</center>
+	**Figure 1**: Width of the strokes. left: width = 0; right: width = 2.
 
 * **gammaS**
 
 	Control the darkness of the strokes. See Figure 2 for example.
 
-	<center>![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/stroke_dark0.png) ![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/stroke_dark1.png)</center>
+	![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/stroke_dark0.png) ![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/stroke_dark1.png)
 
-	<center>**Figure 2**: Gamma of the strokes. left: gammaS = 1.0; right: gammaS = 2.0.</center>
+	**Figure 2**: Gamma of the strokes. left: gammaS = 1.0; right: gammaS = 2.0.
 
 * **gammaI**
 
 	Control the darkness of the final image. See Figure 3 for example.
 
-	<center>![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/image_dark0.png) ![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/image_dark1.png)</center>
+	![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/image_dark0.png) ![alt text](https://github.com/candycat1992/PencilDrawing/blob/master/results/image_dark1.png)
 
-	<center>**Figure 3**: Gamma of the final image. left: gammaI = 1.0; right: gammaI = 0.4.</center>
+	**Figure 3**: Gamma of the final image. left: gammaI = 1.0; right: gammaI = 0.4.
 
 ## Tone Transfer Weights
 
